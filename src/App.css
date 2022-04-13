@@ -31,6 +31,7 @@ body {
 }
 
 #myVideo {
+  margin-top: -30px;
    /* height: 100vh;
  /* width: 100vw;  */
 }
@@ -51,8 +52,21 @@ body {
   text-align: center;
   margin-left: 70%;
   margin-right: 40%;
-  z-index: 4000000;
+  z-index: 3;
 }
+
+#assbtn {
+  /* margin-bottom: -10px; */
+  margin-top: 47.3%;
+  z-index: 10000000000000;
+  position: absolute;
+  transform: translate(-50%, 50%) 
+
+}
+
+.video1-overlay:hover {animation: animName 0.1s linear infinite;}
+.video3-overlay:hover {animation: animName 0.1s linear infinite;}
+
 
 .video3-overlay {
   position: absolute;
@@ -80,6 +94,7 @@ body {
     transform: rotateY(360deg);
   }
 }
+
 
 .inner-container {
   border: 1px solid black;
@@ -123,7 +138,7 @@ video {
 .App-header {
   background-color: #282c34;
   /* min-height: 100vh; */
-  display: flex;
+  /* display: flex; */
   flex-direction: column;
   align-items: center;
   justify-content: center;
